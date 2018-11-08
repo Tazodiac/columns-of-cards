@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  text-align: center;
+  }
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  background-color: #f2f2f2;
+}
+
+img {
+  display: block;
+  align: center;
+  width: 100%;
+  max-width: 100px;
+}
+
+li {
+  display: inline-block
+  text-decoration: none;
+
+
+}
+
+ul {
+  display: flex;
+}
+
+.quest4a {
+  background-color: #e2e2e2;
+}
+
+.dinoknights {
+  background-color: #ccc;
+}
+
+.blackdragon {
+  background-color: #aaa;
+}
+
+.lightlaser {
+  background-color: #999;
+}
