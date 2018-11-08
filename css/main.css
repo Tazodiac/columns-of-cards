@@ -1,8 +1,8 @@
 html {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.5;
-  }
+}
 
 *, *::before, *::after {
   box-sizing: inherit;
@@ -42,6 +42,10 @@ h2 {
 h3 {
   padding: 0;
   margin: 0;
+}
+
+cite {
+  flex-grow: 2;
 }
 
 li {
@@ -92,6 +96,9 @@ ul {
   text-decoration: none;
 }
 
+.btn:hover {
+  color: #000;
+}
 .btn-small:hover {
   background-color: #000;
 }
