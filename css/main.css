@@ -2,7 +2,6 @@ html {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
   line-height: 1.5;
-  text-align: center;
   }
 
 *, *::before, *::after {
@@ -18,14 +17,36 @@ body {
 img {
   display: block;
   width: 100%;
-  max-width: 100px;
+  margin: 0 auto 1.5rem;
+}
+
+.books img {
+  width: 100px;
+}
+
+.books {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  margin: 0 0 1.5rem;
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+  padding: 1.5rem;
+  font-size: 2rem;
+}
+
+h3 {
+  padding: 0;
+  margin: 0;
 }
 
 li {
-  display: inline-block;
+  display: flex;
   text-decoration: none;
-
-
 }
 
 .btn {
@@ -57,4 +78,20 @@ ul {
 .lightlaser {
   background-color: #999;
   border-right: 1px solid #333;
+}
+
+.btn-small {
+  display: inline-block;
+  margin: 0;
+  padding: .6rem;
+  border-radius: 8px;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  font-size: .875rem;
+  text-decoration: none;
+}
+
+.btn-small:hover {
+  background-color: #000;
 }
